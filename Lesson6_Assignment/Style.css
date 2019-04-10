@@ -110,7 +110,7 @@ iframe {
 }
 #header { 
 	width: 100%; 
-	background-color: #EEE;
+	background-color: #EEEEE;
 	border-bottom: 1px solid #999933;
 }
 #content { 
@@ -123,7 +123,7 @@ iframe {
 	float: right;
 	margin-top: 50px;
 	margin-right: 20px;
-	background: #eee;
+	background: #EEE;
 	border: 1px solid #999933;
 	border-radius: 12px;
 	box-shadow: 10px 10px 5px #999933;
@@ -133,7 +133,7 @@ iframe {
 }
 #footer { 
 	width: 100%; 
-	background-color: #FCD0FF;
+	background-color: #EEE;
 	padding: 40px 0;
 	border-top: 1px solid #999933;
 }
