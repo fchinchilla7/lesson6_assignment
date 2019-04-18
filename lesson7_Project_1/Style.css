@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* Francisca Chinchilla*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #3505FF;
+	background-color: #FCD0FF;
+	padding: 0;
+	margin: 0;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	color: #0000F4;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #FFA6D9;
+}
+h3 {
+	font-size: 18px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #07ACB2;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #75ACB2;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #75ACB2;
+	text-decoration: none;
+}
+a:hover {
+	color: #33D0B2;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 12px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #999933 1px;
+}
+td {
+	padding: 6px;
+	border: solid #999933 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: solid #999933 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #999933 1px;
+}
+
+img {
+	border: solid #999933 1px;
+
+}
+
+iframe {
+	border: solid #999933 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
+
+/* ----Div Styles for page layout ------------*/
+
+
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #FCD0FF; 
+	overflow: hidden; 
+}
+#header { 
+	width: 100%; 
+	background-color: #EEEEE;
+	border-bottom: 1px solid #999933;
+}
+#content { 
+	width: 600px;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebar { 
+	width: 200px; 
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #EEE;
+	border: 1px solid #999933;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #999933;
+}
+#sidebar p{
+	padding: 10px;
+}
+#footer { 
+	width: 100%; 
+	background-color: #EEE;
+	padding: 40px 0;
+	border-top: 1px solid #999933;
+}
+#footer p {
+	margin: 0;
+	clear: both;
+}
