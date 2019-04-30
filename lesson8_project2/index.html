@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Healthy Eating</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+      
+    <!-- Custom styles-->   
+    <style>
+      /* Navigation bar alterations */
+      .navbar-inverse {
+          background-color: #FBD93C;        /* change navbar color to gold */
+          border-color: #DBBE34;            /* navbar border to dark gold */
+      }
+      .navbar-inverse .navbar-nav > li > a { 
+          color: #222222; 			       /* change navbar button font color to brighter white */
+      }
+      .navbar-inverse .navbar-brand {
+          color: #222222;                   /* change title at left on navbar to brighter white */
+      }
+      @media (min-width: 768px){            /* for large display sizes ... */
+        .navbar-wrapper .navbar {           /* give nav bar rounded ends */
+          border-radius: 30px;
+        }
+        .navbar-wrapper {                   /* pull nav bar to top of display */
+          margin-top: 0px;
+        }
+      }
+      /* Image carousel alterations */
+      .carousel-inner > .item > img {
+        height: auto;                       /* adjust height with image width to prevent image skewing */
+      }
+       @media (max-width: 899px){
+        .carousel {                         /* shorten carousel height on medium size displays */
+          height: 400px;
+        }
+        .carousel .item {
+          height: 400px;
+          background-color: #FFF;
+        }
+       }
+       @media (max-width: 719px){           
+          .carousel-inner > .item > img {   /* keep image at static size on small displays */
+            width: 719px;
+            max-width: 719px;
+            height: 400px;
+          }
+       }
+       /* Carousel image caption button alterations */
+       .btn-primary {
+          color: #222222;                   /* change image caption button font to white */
+          background-color: #FBD93C;        /* change image caption button to gold */
+          border-color: #DBBE34;
+        }
+        .btn-primary:hover {  
+		   color: #fff;                 /* change image caption button font to white on hover */
+          background-color: #FBD93C;        /* change image caption button to gold */
+          border-color: #DBBE34;
+		   
+		   
+
+        }
+    </style>  
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-Health" href="#">Healthy Eating</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#Habits">Habits</a></li>
+                <li><a href="#contact">Healthy Vegetables</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Healthy Vegetables<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#"></a>Brocoli</li>
+                    <li><a href="#">Kale</a></li>
+                    <li><a href="#">Lettuce</a></li>
+                    <li><a href="#">Carrots</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="brocoli.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Healthy Eating Benefits For a Better life</h1>
+              <p>Feel Better Eat Better.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Overview</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="beets-raw.jpg"  alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Arrival in the States!</h1>
+              <p>1st TV appearance</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Overview</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="cucm.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Good for your body!!</h1>
+              <p>Love who you are and care for your Health!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Overview</a></p>
+            </div>
+          </div>
+        </div>
+      <div class="item">
+          <img src="sprout.jpg" alt="Forth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>You are What you eat</h1>
+              <p>One Apple a day can really make a diference.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Overview</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="img-circle" src="veggie.jpeg" alt="Generic placeholder image">
+          <h2>Balance Diet</h2>
+          <p>Commit to regular activity, you may not be the type of person who want to run a marathon, 
+             but you don’t have to become an athlete to add regular activity to your life, just by taking a short walk, 
+             you are already making a difference to your body.
+             Focus on health and strength, find out inside your self what this really means to you.</p> 
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="img-circle" src="lettuce.jpeg" alt="Generic placeholder image">
+          <h2>Eat Healthy</h2>
+          <p>Sometimes a little motivation or a new idea is all you need to get started. 
+             Incorporating exercise to your life can have a huge impact in your life. 
+             Starting with baby steps is the best way to start incorporating exercise to your daily routine.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="img-circle" src="sprout.jpg" alt="Generic placeholder image">
+          <h2>Sprouts</h2>
+          <p>Despite being low in calories, sprouts are a rich source of nutrients and beneficial plant compounds. 
+              Their vitamin and mineral content varies based on the variety.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="img-circle" src="brocol.jpg" alt="Generic placeholder image">
+          <h2>Brocoli</h2>
+          <p>Brocoli is a great vegetable source of vitamins K and C, also a good 
+          source of folic acid and also provides potassium, and  fiber.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->        
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Importance of Healthy Eating<span class="text-muted">One apple a day can make a diference!</span></h2>
+          <p class="Health">Healthy eating can prevent illnesses, and can also help you improve your memory. By adding to your diet Fruits like Blueberry
+              you are feeding your brain.Blueberries are full of antioxidants that may delay brain aging and improve memory.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="apple.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="beets-raw.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Benefits of Eating Healthy<span class="text-muted">Feeling better</span></h2>
+          <p class="lead">With only 30 minutes of exercise a day you can make a diference to your daily life.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Daily Routines<span class="text-muted"> Can help with Process.</span></h2>
+          <p class="Health"> Eating Healthy can help you improve your metabolism, and also it helps you to feel better.
+         Developing healthy habits can really make a diference on someones body, having a diet rich of good nutrients, 
+         which means including vegetables,healthy protein can have a huge impact on someones lives.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="apple.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Copyright,2019, Francisca Chinchilla</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
