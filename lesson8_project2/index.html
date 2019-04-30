@@ -19,19 +19,20 @@
     <!-- Custom styles-->   
     <style>
       /* Navigation bar alterations */
-      .navbar-inverse {
-          background-color: #FBD93C;        /* change navbar color to gold */
-          border-color: #DBBE34;            /* navbar border to dark gold */
+      
+      .navbar-inverse{
+          background-color: #FCD0FF;        /* change navbar color to gold */
+          border-color: #fff;            /* navbar border to dark gold */
       }
       .navbar-inverse .navbar-nav > li > a { 
-          color: #222222; 			       /* change navbar button font color to brighter white */
+          color: #fff; 			       /* change navbar button font color to brighter white */
       }
       .navbar-inverse .navbar-brand {
-          color: #222222;                   /* change title at left on navbar to brighter white */
+          color: #fff;                   /* change title at left on navbar to brighter white */
       }
-      @media (min-width: 768px){            /* for large display sizes ... */
+      @media (min-width: 700px){            /* for large display sizes ... */
         .navbar-wrapper .navbar {           /* give nav bar rounded ends */
-          border-radius: 30px;
+          border-radius: 15px;
         }
         .navbar-wrapper {                   /* pull nav bar to top of display */
           margin-top: 0px;
@@ -41,27 +42,27 @@
       .carousel-inner > .item > img {
         height: auto;                       /* adjust height with image width to prevent image skewing */
       }
-       @media (max-width: 899px){
+       @media (max-width: 800px){
         .carousel {                         /* shorten carousel height on medium size displays */
-          height: 400px;
+          height: 300px;
         }
         .carousel .item {
           height: 400px;
           background-color: #FFF;
         }
        }
-       @media (max-width: 719px){           
+       @media (max-width: 700px){           
           .carousel-inner > .item > img {   /* keep image at static size on small displays */
-            width: 719px;
-            max-width: 719px;
+            width: 700px;
+            max-width: 700px;
             height: 400px;
           }
        }
        /* Carousel image caption button alterations */
        .btn-primary {
-          color: #222222;                   /* change image caption button font to white */
+          color: #fff;                   /* change image caption button font to white */
           background-color: #FBD93C;        /* change image caption button to gold */
-          border-color: #DBBE34;
+          border-color: #fff;
         }
         .btn-primary:hover {  
 		   color: #fff;                 /* change image caption button font to white on hover */
@@ -128,7 +129,7 @@
           <img src="brocoli.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Healthy Eating Benefits For a Better life</h1>
+              <h1>Healthy Eating Benefits</h1>
               <p>Feel Better Eat Better.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Overview</a></p>
             </div>
@@ -145,7 +146,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="cucm.jpg" alt="Third slide">
+          <img src="cucum.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Good for your body!!</h1>
@@ -159,7 +160,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>You are What you eat</h1>
-              <p>One Apple a day can really make a diference.</p>
+      
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Overview</a></p>
             </div>
           </div>
@@ -176,7 +177,7 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+    <div class="container">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
@@ -237,7 +238,7 @@
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Benefits of Eating Healthy<span class="text-muted">Feeling better</span></h2>
-          <p class="lead">With only 30 minutes of exercise a day you can make a diference to your daily life.</p>
+          <p class="health">With only 30 minutes of exercise a day you can make a diference</p>
         </div>
       </div>
 
